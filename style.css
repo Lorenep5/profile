@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;300;400;600&family=Open+Sans+Condensed:wght@300&family=Raleway&display=swap');
+
+body {
+    background-color: #fcf8ec;
+    color: #456268;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: #456268;
+    font-size: 30px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30 px
+}
+
+
+p {
+    color: #456268;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    color: #79a3b1;
+    font-size: 30px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #456268;
+    text-transform: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #79a3b1
+  }
+
+li:hover {
+    color: #79a3b1
+}
+
+.socialmedia {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.presentation {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+
+}
+
+.card2 {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
